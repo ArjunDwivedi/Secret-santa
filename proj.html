@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Secret Santa Generator</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file -->
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <h1>Secret Santa Generator</h1>
+    </header>
+    
+    <main>
+        <section id="participants">
+            <h2>Participants</h2>
+            <ul>
+                <!-- Participant list will be dynamically generated here -->
+            </ul>
+        </section>
+        
+        <section id="add-participant">
+            <h2>Add Participant</h2>
+            <form id="participant-form">
+                <label for="participant-name">Name:</label>
+                <input type="text" id="participant-name" name="participant-name" required>
+                <button type="submit">Add</button>
+            </form>
+        </section>
+        
+        <section id="generate">
+            <h2>Generate Secret Santa</h2>
+            <button id="generate-button">Generate</button>
+        </section>
+        
+        <section id="results">
+            <h2>Secret Santa Results</h2>
+            <ul>
+                <!-- Secret Santa pairs will be dynamically generated here -->
+            </ul>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2024 Your Secret Santa</p>
+    </footer>
+    
+    <script src="proj.js"></script> <!-- Link to your JavaScript file -->
+</body>
+</html>
